@@ -178,18 +178,6 @@ nav .nav-link {
 }
 /* Contact Info */
 
-@media only screen and (min-width: 300px) and (max-width: 500px) {
-    .contact_breadcramb h1 {
-        font-size: 40px;
-    }
-    #contact_form_section h2 {
-        font-size: 40px;
-    }
-    #contact_info_div {
-        margin-bottom: 30px;
-    }
-}
-
 
 /* Get Consultation */
 #consultation_section {
@@ -208,6 +196,22 @@ nav .nav-link {
     color: var(--white-color);
 }
 /* Get Consultation */
+
+
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+    .contact_breadcramb h1 {
+        font-size: 40px;
+    }
+    #contact_form_section h2 {
+        font-size: 40px;
+    }
+    #contact_info_div {
+        margin-bottom: 30px;
+    }
+    #consultation_section h3 {
+        font-size: 40px;
+    }
+}
 
 /* Contact Us */
 
