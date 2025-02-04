@@ -189,6 +189,26 @@ nav .nav-link {
         margin-bottom: 30px;
     }
 }
+
+
+/* Get Consultation */
+#consultation_section {
+    background-image: url("../image/contact2.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 60px 0;
+}
+#consultation_section h3 {
+    font-size: 50px;
+    color: var(--white-color);
+    font-weight: 600;
+}
+#consultation_section p {
+    color: var(--white-color);
+}
+/* Get Consultation */
+
 /* Contact Us */
 
 
