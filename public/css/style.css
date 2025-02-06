@@ -40,6 +40,16 @@ body {
 .btn:hover {
     background: var(--second-color);
 }
+.breadcrumb_title {
+    color: var(--white-color);
+    font-size: 60px;
+    font-weight: 600;
+}
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+    .breadcrumb_title {
+        font-size: 40px;
+    }
+}
 
 
 /* Navbar */
@@ -131,6 +141,10 @@ nav .nav-link {
 }
 
 /* Blog Page */
+.blog_breadcramb {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url("../image/assessment-bg.jpg");
+    padding: 80px 0;
+}
 #blog_main_section {
     margin: 60px 0;
 }
@@ -201,10 +215,49 @@ nav .nav-link {
 #main_blog_side h3 span {
     font-size: 16px;
 }
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+    #blog_main_section {
+        margin: 30px 0;
+    }
+}
 /* Blog Page */
 
 
 /* Blog Single Page */
+.single_blog_breadcramb {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url("../image/assessment-bg.jpg");
+    padding: 80px 0;
+}
+#single_blog_main_section {
+    margin: 60px 0;
+}
+.signle_blog_footer .single_blog_tags {
+    width: 50%;
+}
+.single_blog_tags ul li {
+    display: inline-block;
+    margin-right: 10px;
+    background-color: var(--shadow-color);
+    padding: 4px 10px;
+    margin-top: 10px;
+    border-radius: 3px;
+}
+.single_blog_tags ul li:last-child {
+    margin-right: 0;
+}
+.single_blog_social ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+.single_blog_social ul li a {
+    color: var(--first-color);
+    font-size: 20px;
+}
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+    #single_blog_main_section {
+        margin: 30px 0;
+    }
+}
 /* Blog Single Page */
 
 
@@ -213,11 +266,6 @@ nav .nav-link {
 .contact_breadcramb {
     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url("../image/assessment-bg.jpg");
     padding: 80px 0;
-}
-.contact_breadcramb h1 {
-    color: var(--white-color);
-    font-size: 60px;
-    font-weight: 600;
 }
 #contact_form_section h2 {
     font-size: 60px;
