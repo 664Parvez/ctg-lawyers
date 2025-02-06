@@ -6,6 +6,7 @@
     --white-color: #ffffff;
     --first-color: #012f6b;
     --second-color: #6ABDDB;
+    --light-blue-color: #daf5ff;
     --shadow-color: #d6d6d6;
     --offwhite-color: #FAF9F6;
     --red-color: #ff1100;
@@ -132,6 +133,73 @@ nav .nav-link {
 /* Blog Page */
 #blog_main_section {
     margin: 60px 0;
+}
+#sidebar_search_option {
+    background-color: var(--light-blue-color);
+    padding: 30px;
+    border-radius: 10px;
+}
+#sidebar_socialmedia {
+    margin-top: 20px;
+    background-color: var(--light-blue-color);
+    padding: 30px;
+    border-radius: 10px;
+}
+#sidebar_socialmedia ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+#sidebar_socialmedia ul li:last-child {
+    margin-right: 0;
+}
+#sidebar_socialmedia ul li a {
+    font-size: 20px;
+    color: var(--first-color);
+}
+#sidebar_socialmedia ul li a:hover {
+    color: var(--second-color);
+}
+.blog_author {
+    padding: 10px;
+    margin-top: 15px;
+}
+.blog_author li {
+    display: inline-block;
+    margin-left: 20px;
+}
+.blog_author li:first-child {
+    margin-left: 0;
+}
+#sidebar_recent_post {
+    margin-top: 20px;
+    background-color: var(--light-blue-color);
+    padding: 30px;
+    border-radius: 10px;
+}
+#sidebar_recent_post ul li {
+    border-bottom: 1px dashed var(--black-color);
+    margin-top: 15px;
+}
+#sidebar_recent_post ul li img {
+    width: 100%;
+    border-radius: 5px;
+}
+#sidebar_recent_post ul li p {
+    color: var(--black-color);
+}
+#main_blog_side #post_date {
+    text-align: end;
+    margin-top: -55px;
+}
+#main_blog_side h3 {
+    display: inline-block;
+    background-color: var(--first-color);
+    border-bottom: 4px solid var(--second-color);
+    padding: 10px;
+    color: var(--white-color);
+}
+#main_blog_side h3 span {
+    font-size: 16px;
 }
 /* Blog Page */
 
