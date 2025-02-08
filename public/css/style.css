@@ -374,6 +374,10 @@ nav .nav-link {
     color: var(--first-color);
     font-size: 20px;
 }
+#comment_form {
+    background-color: var(--offwhite-color);
+    padding: 25px;
+}
 @media only screen and (min-width: 300px) and (max-width: 500px) {
     #single_blog_main_section {
         margin: 30px 0;
