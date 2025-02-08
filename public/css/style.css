@@ -39,6 +39,8 @@ body {
 }
 .btn:hover {
     background: var(--second-color);
+    transform: translateY(-5px);
+    transition: .5s ease-in-out;
 }
 .breadcrumb_title {
     color: var(--white-color);
@@ -200,6 +202,19 @@ nav .nav-link {
 #home_third_image_div img {
     width: 100%;
     border-radius: 10px;
+}
+
+#home_last_section {
+    background-image: url("../image/home-footer.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 60px 0;
+}
+#home_last_section h3 {
+    font-size: 50px;
+    font-weight: 600;
+    color: var(--white-color);
 }
 
 @media only screen and (min-width: 300px) and (max-width: 500px) {
