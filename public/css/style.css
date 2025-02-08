@@ -140,6 +140,63 @@ nav .nav-link {
     }
 }
 
+/* Home Page */
+#home_second_section {
+    margin: 60px 0;
+}
+#home_second_div {
+    border: 1px solid var(--first-color);
+    padding: 20px;
+    border-radius: 10px;
+    transition: .5s ease-in-out;
+}
+#home_second_div img {
+    width: 100px;
+    visibility: hidden;
+}
+#home_second_div:hover img {
+    visibility: visible;
+}
+#home_second_div h4 {
+    font-weight: 600;
+    color: var(--first-color);
+}
+#home_second_div:hover {
+    border: 1px solid var(--red-color);
+    transition: .5s ease-in-out;
+}
+#home_second_div:hover svg {
+    color: var(--red-color);
+    transition: .5s ease-in-out;
+}
+#home_second_div:hover h4 {
+    text-decoration: underline;
+    text-decoration-color: var(--red-color);
+    transition: .5s ease-in-out;
+}
+
+#home_third_section {
+    margin: 60px 0;
+}
+#home_third_section h5 {
+    color: var(--red-color);
+}
+#home_third_section h3 {
+    font-size: 50px;
+    font-weight: 600;
+    color: var(--first-color);
+}
+
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+    #home_second_section {
+        margin: 30px 0;
+    }
+    #home_third_section {
+        margin: 30px 0;
+    }
+}
+/* Home Page */
+
 
 /* About Us */
 .about_breadcramb {
@@ -381,7 +438,7 @@ nav .nav-link {
 @media only screen and (min-width: 300px) and (max-width: 500px) {
     #single_blog_main_section {
         margin: 30px 0;
-    }
+    }  
 }
 /* Blog Single Page */
 
