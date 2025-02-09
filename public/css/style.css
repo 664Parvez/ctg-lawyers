@@ -10,7 +10,28 @@
     --shadow-color: #d6d6d6;
     --offwhite-color: #FAF9F6;
     --red-color: #ff1100;
+    --rating-color: #ff5e00;
 }
+
+/* width */
+::-webkit-scrollbar {
+    width: 3px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
 
 ul {
     list-style: none;
@@ -241,6 +262,59 @@ nav .nav-link {
     }
 }
 
+#client_reviews {
+    margin: 60px 0;
+    padding: 60px 0;
+    background-color: var(--offwhite-color);
+}
+#client_reviews h2 {
+    font-size: 50px;
+    font-weight: 600;
+    color: var(--first-color);
+}
+#client_reviews h5 {
+    color: var(--red-color);
+}
+.review_div {
+    height: 410px;
+    overflow-y: scroll;
+}
+.every_client_review_star {
+    background: var(--second-color);
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.every_client_review_star ul li {
+    display: inline-block;
+}
+#client_reviews h4 {
+    font-size: 60px;
+    font-weight: 600;
+}
+#client_reviews h4 sub {
+    font-size: 20px;
+}
+#client_reviews .review_star ul li {
+    display: inline-block;
+    color: var(--rating-color);
+}
+.client_name {
+    font-size: 20px;
+    font-weight: 600;
+}
+#client_reviews img {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: 2px solid var(--rating-color);
+}
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+    .reviewSwiper {
+        margin-top: 20px;
+    }
+}
+
 #home_blog_section {
     margin: 60px 0;
 }
@@ -251,6 +325,9 @@ nav .nav-link {
     font-size: 50px;
     font-weight: 600;
     color: var(--first-color);
+}
+#home_blog_section .card {
+    margin-top: 10px;
 }
 #home_blog_section h4 {
     color: var(--first-color);
@@ -367,6 +444,9 @@ nav .nav-link {
 @media only screen and (min-width: 300px) and (max-width: 500px) {
     #process_section {
         margin: 30px 0;
+    }
+    #process_section h2 {
+        font-size: 40px;
     }
     #process_section .main_process_img {
         margin-top: 100px;
