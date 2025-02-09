@@ -311,8 +311,20 @@ nav .nav-link {
     #home_third_section h3 {
         font-size: 40px;
     }
+    #home_third_section img {
+        margin-top: 10px;
+    }
     #home_third_experience_div .badge_img {
         width: 200px;
+    }
+    #home_blog_section h2 {
+        font-size: 40px;
+    }
+    #client_section h2 {
+        font-size: 40px;
+    }
+    #home_last_section h3 {
+        font-size: 40px;
     }
 }
 /* Home Page */
