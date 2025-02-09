@@ -10,8 +10,10 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
 
     <!-- Font Awasome -->
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     
     <link rel="stylesheet" href="./public/css/style.css">
 
@@ -492,6 +494,50 @@
 </section>
 
 <section>
+    <div id="client_section">
+        <div class="container mb-5 text-center">
+            <h2 class="text-white">Our Partner Institutions</h2>
+            <p class="text-white">Cursus porta, feugiat primis in ultrice ligula risus auctor tempus dolor feugiat, <br>felis lacinia risus interdum auctor id viverra dolor iaculis luctus placerat and massa</p>
+        </div>
+        <!-- Swiper -->
+        <div class="swiper clientSwiper">
+            <div class="swiper-wrapper text-center">
+                <div class="swiper-slide">
+                    <img src="./public/image/client-log-01.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./public/image/client-log-02.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./public/image/client-log-03.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./public/image/client-log-04.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./public/image/client-log-05.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./public/image/client-log-01.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./public/image/client-log-02.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./public/image/client-log-03.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./public/image/client-log-04.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./public/image/client-log-05.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
     <div id="home_last_section">
         <div class="container">
             <div class="row">
@@ -603,6 +649,41 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 
     <script src="./public/js/app.js"></script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".clientSwiper", {
+            slidesPerView: 5,
+            breakpoints: {
+                300: {
+                    slidesPerView: 2,
+                    spaceBetween: 20,
+                },
+                640: {
+                    slidesPerView: 2,
+                    spaceBetween: 20,
+                },
+                768: {
+                    slidesPerView: 3,
+                    spaceBetween: 40,
+                },
+                1024: {
+                    slidesPerView: 4,
+                    spaceBetween: 50,
+                },
+            },
+            spaceBetween: 10,
+            freeMode: true,
+            loop: true,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+        });
+    </script>
 
     <!-- Copyright Script -->
     <script>

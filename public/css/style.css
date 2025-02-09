@@ -241,7 +241,6 @@ nav .nav-link {
     }
 }
 
-
 #home_blog_section {
     margin: 60px 0;
 }
@@ -268,6 +267,21 @@ nav .nav-link {
     margin-top: 20px;
     color: var(--white-color);
     border-radius: 5px;
+}
+
+#client_section {
+    background-color: var(--first-color);
+    padding: 60px 0;
+}
+#client_section h2 {
+    font-size: 60px;
+    font-weight: 600;
+}
+#client_section img {
+    filter: grayscale(1);
+}
+#client_section img:hover {
+    filter: grayscale(0);
 }
 
 #home_last_section {
