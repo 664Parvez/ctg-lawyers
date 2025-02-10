@@ -163,11 +163,83 @@ nav .nav-link {
 
 @media only screen and (min-width: 300px) and (max-width: 500px) {
     #top_nav {
-        display: none;
+        display: none;  
     }
 }
 
 /* Home Page */
+
+#home_hero_section {
+    margin-top: 100px;
+}
+#home_hero_section h5 {
+    color: var(--red-color);
+}
+#home_hero_section h1 {
+    font-size: 70px;
+    font-weight: 600;
+    padding: 20px 0;
+}
+#home_hero_section .heroSwiper img {
+    width: 100%;
+    border-radius: 10px;
+}
+#hero_section_slider {
+    position: relative;
+}
+#hero_review {
+    position: absolute;
+    z-index: 30;
+    top: -50px;
+    left: -30px;
+}
+#hero_trustpilot {
+    position: absolute;
+    z-index: 30;
+    top: 400px;
+    right: -80px;
+}
+.hero_animate {
+    animation: moveAnim 5s linear infinite;
+}
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+    #home_hero_section {
+        margin-top: 30px;
+    }
+    #home_hero_section h1 {
+        font-size: 50px;
+    }
+    #hero_review {
+        display: none;
+    }
+    #hero_trustpilot {
+        display: none;
+    }
+    #hero_section_slider {
+        margin-top: 30px;
+    }
+}
+@keyframes moveAnim {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(-30px); 
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.hero_btn_two {
+    background: var(--second-color);
+    color: var(--black-color);
+}
+.hero_btn_two:hover {
+    background: var(--first-color);
+    color: var(--white-color);
+}
+
 #home_second_section {
     margin: 60px 0;
 }
@@ -278,6 +350,7 @@ nav .nav-link {
 .review_div {
     height: 410px;
     overflow-y: scroll;
+    border-radius: 5px;
 }
 .every_client_review_star {
     background: var(--second-color);
