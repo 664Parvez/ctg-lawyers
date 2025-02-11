@@ -567,6 +567,91 @@ nav .nav-link {
 /* Home Page */
 
 
+
+/* Service */
+.service_breadcramb {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url("../image/assessment-bg.jpg");
+    padding: 80px 0;
+}
+#service_first_section {
+    margin: 60px 0;
+}
+#service_first_section h2 {
+    font-size: 50px;
+    font-weight: 600;
+    color: var(--first-color);
+}
+#service_first_section h4 {
+    font-weight: 600;
+}
+#service_first_section img {
+    width: 100%;
+    border-radius: 10px;
+}
+#service_second_section {
+
+}
+
+#service_faq {
+    margin: 60px 0;
+}
+#service_faq img {
+    width: 100%;
+}
+
+#service_forth_section {
+    padding-top: 60px;
+    background-image: url("../image/pattern.png");
+    background-repeat: repeat;
+    background-position: 0 0;
+}
+#service_forth_section .service_forth_section_middle_img {
+    width: 100%;
+}
+#service_contact_section {
+    background-image: url("../image/service_contact.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px 0;
+}
+#service_contact_section h5 {
+    color: var(--white-color);
+}
+#service_contact_section h2 {
+    font-size: 50px;
+    color: var(--white-color);
+}
+
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+    #bm_first_section {
+        margin: 30px 0;
+    }
+    #bm_first_section h2 {
+        font-size: 40px;
+    }
+    #bm_first_section img {
+        margin-top: 20px;
+    }
+    #service_forth_section {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    #service_forth_section .service_forth_section_middle_img {
+        padding: 20px 0;
+    }
+    #service_contact_section {
+        padding: 30px 0;
+    }
+    #service_contact_section h2 {
+        font-size: 40px;
+    }
+}
+
+/* Service */
+
+
+
 /* About Us */
 .about_breadcramb {
     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url("../image/assessment-bg.jpg");
