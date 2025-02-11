@@ -652,6 +652,28 @@ nav .nav-link {
     color: var(--white-color);
 }
 
+.service_aboutus_bar {
+    margin: 60px 0;
+    background-color: var(--first-color);
+    padding: 30px;
+}
+.service_aboutus_bar .btn {
+    background-color: var(--offwhite-color);
+    color: var(--first-color);
+}
+#why_hire_section {
+    margin: 60px 0;
+}
+#why_hire_section img {
+    width: 100%;
+    margin-top: 30px;
+}
+#why_hire_section h2 {
+    font-size: 45px;
+    font-weight: 600;
+    color: var(--first-color);
+}
+
 @media only screen and (min-width: 300px) and (max-width: 500px) {
     #service_first_section {
         margin: 30px 0;
@@ -690,6 +712,12 @@ nav .nav-link {
     #service_contact_section h2 {
         font-size: 35px;
         margin-top: 25px;
+    }
+    .service_aboutus_bar {
+        margin: 30px 0;
+    }
+    #why_hire_section {
+        margin: 30px 0;
     }
 }
 
@@ -1214,5 +1242,14 @@ footer hr {
     }
     100% {
         transform: translateY(0px);
+    }
+}
+
+#faq_page {
+    margin: 60px 0;
+}
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+    #faq_page {
+        margin: 30px 0;
     }
 }
