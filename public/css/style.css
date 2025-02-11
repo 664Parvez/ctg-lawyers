@@ -237,13 +237,28 @@ nav .nav-link {
         font-size: 60px;
     }
     #hero_section_slider {
-        margin-top: 30px;
+        display: none;
     }
     #hero_review {
         display: none;
     }
     #hero_trustpilot {
         display: none;
+    }
+    .agent_img {
+        display: none;
+    }
+    .round_anim_img {
+        display: none;
+    }
+    .main_process_img {
+        display: none;
+    }
+    .reviewSwiper {
+        margin-top: 30px;
+    }
+    #home_second_div {
+        margin-top: 10px;
     }
 }
 @keyframes moveAnim {
@@ -326,6 +341,12 @@ nav .nav-link {
 #home_third_image_div img {
     width: 100%;
     border-radius: 10px;
+}
+
+@media only screen and (min-width: 501px) and (max-width: 800px) {
+    #home_third_experience_div .badge_img {
+        width: 100%;
+    }
 }
 
 #home_agents_section {
@@ -721,6 +742,27 @@ nav .nav-link {
     }
 }
 
+@media only screen and (min-width: 501px) and (max-width: 800px) {
+    #service_first_section img {
+        display: none;
+    }
+    #service_second_section h3 {
+        font-size: 40px;
+    }
+    #why_hire_section img {
+        margin-bottom: 30px;
+    }
+    #service_faq img {
+        display: none;
+    }
+    #service_forth_section .mt-lg-4 {
+        margin-bottom: 30px;
+    }
+    .service_forth_section_middle_img {
+        display: none;
+    }
+}
+
 /* Service */
 
 
@@ -1046,6 +1088,12 @@ nav .nav-link {
     }
     #consultation_section h3 {
         font-size: 40px;
+    }
+}
+@media only screen and (min-width: 501px) and (max-width: 800px) {
+    #contact_form_section #contact_info_div
+    {
+        margin-bottom: 30px;
     }
 }
 
